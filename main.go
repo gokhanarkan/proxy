@@ -294,7 +294,7 @@ func copyHeaders(dst, src http.Header) {
 		"Proxy-Authorization",
 		"Te",
 		"Trailer",
-		"Expect", // Added Expect to the list
+		"Expect",
 	}
 
 	for k, vv := range src {
